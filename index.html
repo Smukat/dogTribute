@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Gauss & Amelie Tribute</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- EXTERNAL LINKS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+
+    <!--GALLERY-->
+
+    <script type='text/javascript' src='dist/js/unitegallery.min.js'></script>
+    <link rel='stylesheet' href='dist/css/unite-gallery.css' type='text/css' />
+    <script type='text/javascript' src='dist/themes/default/ug-theme-default.js'></script>
+    <link rel='stylesheet' href='dist/themes/default/ug-theme-default.css' type='text/css' />
+    <script type='text/javascript' src='dist/themes/tiles/ug-theme-tiles.js'></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="dogTribute.js"></script>
+
+</head>
+
+
+<body data-spy="scroll" data-target="#navID">
+
+<!--NAV-->
+
+<header>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top" id="navID">
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand mb-0" href="#"><i class="fa fa-paw" aria-hidden="true"></i> Gauss & Amelie</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#galleryMenu">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#friends">Friends</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+</header>
+
+<!--MAIN-->
+
+<main>
+    <div class="container">
+
+        <h1 id="title">Welcome to our site! </h1>
+
+    </div>
+</main>
+
+
+<!--ABOUT-->
+<div class="container" id="about">
+    <h2 class="subTitle">- About us -</h2>
+
+    <!--GAUSS-->
+    <div class="row align-items-center paddingProfile">
+        <div class="col-md-5 col-sm-4 col-4">
+            <img class="img-fluid imgCircle" src="images/gauss_profile.jpg" alt="Gauss the Dog">
+
+        </div>
+
+
+        <div class="col-md-7 col-sm-8 col-8">
+            <h3>Gauss</h3>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
+                sido el texto de relleno estándar de las industrias desde el año 1500,</p>
+
+        </div>
+    </div>
+
+
+    <!--AMELIE-->
+    <div class="row align-items-center">
+
+        <div class="col-md-7 col-sm-8 col-8 paddingProfile">
+            <h3>Amelie</h3>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
+                sido el texto de relleno estándar de las industrias desde el año 1500,</p>
+
+        </div>
+
+
+        <div class="col-md-5 col-sm-4 col-4">
+            <img class="img-fluid imgCircle" src="images/amelie_profile.jpg" alt="Amelie the Dog">
+
+        </div>
+    </div>
+</div>
+
+<!--GALLERY-->
+<div id="galleryMenu">
+    <div class="container">
+        <h2 class="subTitle">- Gallery -</h2>
+
+        <div id="gallery" style="display:none;">
+
+            <img alt="Gauss in the field" src="images/thumbs/1_opt.jpg"
+                 data-image="images/full/1.jpg"
+                 data-description="Gauss in the field">
+
+            <img alt="Amelie in the field" src="images/thumbs/2_opt.jpg"
+                 data-image="images/full/2.jpg"
+                 data-description="Amelie in the field">
+
+            <img alt="In the garden" src="images/thumbs/3_opt.jpg"
+                 data-image="images/full/3.jpg"
+                 data-description="In the garden">
+
+            <img alt="Eating a bone" src="images/thumbs/4_opt.jpg"
+                 data-image="images/full/4.jpg"
+                 data-description="Eating a bone">
+
+            <img alt="Staring a bone" src="images/thumbs/5_opt.jpg"
+                 data-image="images/full/5.jpg"
+                 data-description="Staring a bone">
+
+            <img alt="Puppies" src="images/thumbs/6_opt.jpg"
+                 data-image="images/full/6.jpg"
+                 data-description="Puppies">
+
+            <img alt="Happy Smile" src="images/thumbs/7_opt.jpg"
+                 data-image="images/full/7.jpg"
+                 data-description="Happy Smile">
+
+            <img alt="In the terrace" src="images/thumbs/8_opt.jpg"
+                 data-image="images/full/8.jpg"
+                 data-description="In the terrace">
+
+            <img alt="Good Boy!" src="images/thumbs/9_opt.jpg"
+                 data-image="images/full/9.jpg"
+                 data-description="Good Boy!">
+
+            <img alt="Beach" src="images/thumbs/10_opt.jpg"
+                 data-image="images/full/10.jpg"
+                 data-description="Beach">
+
+            <img alt="Gauss & Amelie" src="images/thumbs/11_opt.jpg"
+                 data-image="images/full/11.jpg"
+                 data-description="Gauss & Amelie">
+
+            <img alt="Mini bunnies" src="images/thumbs/12_opt.jpg"
+                 data-image="images/full/12.jpg"
+                 data-description="Mini bunnies">
+        </div>
+    </div>
+</div>
+
+<!--FRIENDS-->
+
+<div class="container text-center" id="friends">
+    <h2 class="subTitle">- Friends talking -</h2>
+    <div class="row">
+
+        <!--FIRST COLUMN-->
+        <div class="col-md-6 col-sm-6 col-6">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img class="imgCircle img-fluid" src="images/titi.jpg">
+                </div>
+
+                <div class="col-md-8 col-sm-8 col-xs-8 paddingDogs">
+                    <h4>Titi</h4>
+                    <p>"I like to play ball with them."</p>
+                </div>
+            </div> <!--SECOND ROW-->
+
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img class="imgCircle img-fluid" src="images/milu.jpg">
+                </div>
+
+                <div class="col-md-8 col-sm-8 col-xs-8 paddingDogs">
+                    <h4>Milu</h4>
+                    <p>"We share the RV and it is awesome!"</p>
+                </div>
+            </div> <!--SECOND ROW-->
+
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img class="imgCircle img-fluid" src="images/kero.jpg">
+                </div>
+
+                <div class="col-md-8 col-sm-8 col-xs-8 paddingDogs">
+                    <h4>Kero</h4>
+                    <p>"They took my mummy away."</p>
+                </div>
+            </div> <!--SECOND ROW-->
+        </div> <!--COL-->
+
+        <!--SECOND COLUMN-->
+
+        <div class="col-md-6 col-sm-6 col-6">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img class="imgCircle img-fluid" src="images/boby.jpg">
+                </div>
+
+                <div class="col-md-8 col-sm-8 col-xs-8 paddingDogs">
+                    <h4>Bobby</h4>
+                    <p>"They are such a good girl/boy!"</p>
+                </div>
+            </div> <!--SECOND ROW-->
+
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img class="imgCircle img-fluid" src="images/rex.jpg">
+                </div>
+
+                <div class="col-md-8 col-sm-8 col-xs-8 paddingDogs">
+                    <h4>Rex</h4>
+                    <p>"My food bowl was empty every day."</p>
+                </div>
+            </div> <!--SECOND ROW-->
+
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img class="imgCircle img-fluid" src="images/mora.jpg">
+                </div>
+
+                <div class="col-md-8 col-sm-8 col-xs-8 paddingDogs">
+                    <h4>Mora</h4>
+                    <p>"Best walks happen when they are around."</p>
+                </div>
+            </div> <!--SECOND ROW-->
+        </div> <!--COL-->
+    </div> <!--1 ROW-->
+</div>
+
+
+
+
+<!--FOOTER-->
+
+<footer>
+    <div class="container text-center">
+        <p>© Jesica Prades - 2017</p>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
+
+
+

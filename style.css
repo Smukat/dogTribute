@@ -1,0 +1,128 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite,
+code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5,
+h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre,
+q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time,
+tr, tt, u, ul, var, video {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1 { font-size: 2.074em;}
+
+h2 { font-size: 1.728em; }
+
+h3 { font-size: 1.44em; }
+
+h4 { font-size: 1.2em; }
+
+small { font-size: 0.833em; }
+
+
+.fa {
+    color: #6504B5;
+}
+
+#title {
+    font-family: 'Schoolbell', cursive;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-shadow: 0 0 3px black;
+    height: auto;
+}
+
+.subTitle {
+    font-family: 'Kalam', cursive;
+    font-size: 2.5em;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: #6504B5;
+}
+
+/*HEADER & MAIN*/
+
+nav li a:hover {
+    background-color: #d19bfd;
+}
+
+main {
+    background: url("images/bg_opt.jpg") no-repeat center top;
+    padding-top: 18.8rem;
+    padding-bottom: 12.5rem;
+}
+
+
+
+/*ABOUT*/
+
+.imgCircle {
+    border-radius: 50%;
+    padding-bottom: 1.5em;
+ }
+
+#about h3 {
+    font-weight: bold;
+    padding-bottom: 0.6em;
+    text-align: center;
+}
+
+
+/*GALLERY*/
+
+#galleryMenu {
+    background: linear-gradient(-90deg, #6504B5, #d19bfd);
+}
+
+#galleryMenu h2 {
+    color: white;
+}
+
+/*FRIENDS*/
+
+#friends h4 {
+    font-weight: bold;
+}
+
+.paddingDogs {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #f0f0f0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*PHONES*/
+
+
+@media only screen and (max-width: 768px) {
+
+    main {
+        background: url("images/bgPhone2.jpg") no-repeat center top;
+        padding-top: 13.8rem;
+        padding-bottom: 11.5rem;
+    }
+
+
+    .paddingDogs {
+        padding-top: 0.4em;
+
+    }
+
+
+    .paddingProfile {
+        padding-bottom: 2.5em;
+    }
+
+
+}
